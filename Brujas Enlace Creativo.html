@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brujas enlace creativo</title>
+    <link rel="stylesheet" href="./Brujas Enlace Creativo_files/css/style.css">
+    <script src="https://kit.fontawesome.com/e3aa5a861d.js" crossorigin="anonymous"></script>
+    <script defer src="./Brujas Enlace Creativo_files/js/app.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" href="./Brujas Enlace Creativo_files/img/LOGO-TEMPORAL-BRUJAS-BLANCO.png">
+  </head>
+  <body>
+  <!-- AQUI INICIA EL HEADER -->
+    <header>
+    <!-- NAVBAR -->
+    <nav>
+        <!-- LOGO -->
+        <a href="./Brujas Enlace Creativo.html" class="logo-icon">
+            <img src="./Brujas Enlace Creativo_files/img/LOGO-TEMPORAL-BRUJAS-BLANCO.png" alt="logo">
+        </a>
+        <!-- HOME -->
+        <a href="./Brujas Enlace Creativo.html" class="home-link">
+            <p>Inicio</p>
+        </a>
+        <!-- TODAY -->
+        <a class="about-link" href="#about">
+            <p>Acerca de nosotros</p>
+        </a>        
+        <!-- DROP MENU -->
+        <a href="" class="drop-icon">
+            <i class="fa-solid fa-chevron-down"></i>
+        </a> 
+    </nav>               
+    </header>  
+  <!-- Aqui inicia el main -->
+    <main>
+      <section id="mainlogo">
+        <img class="homelogo" src="./Brujas Enlace Creativo_files/img/LOGO-TEMPORAL-BRUJAS-BLANCO.png" alt="">
+      </section>
+      <section id="about">
+        <p>
+          Brujas Enlace Creativo es una iniciativa que comenzó reconociendo la necesidad que tienen los trabajadores independientes, 
+          también conocidos como freelancers, para conseguir clientes que estén dispuestos a pagar el trabajo de manera justa, o clientes en general.
+        </p>
+      </section id="objetivo">
+      <p>
+        El objetivo de Brujas EC, es conectar a freelancers y clientes para la búsqueda y entrega de un trabajo de calidad de manera personalizada.
+      </p>
+
+        <p class="formulario_texto">
+                    Por favor a continuación deja tu información para comenzar a buscar opciones de clientes para ti:
+        </p>
+      <!-- FORMULARIO -->
+        <section id="formulario">
+          <label for="nombre">Nombres:</label>
+          <input id="nombre" type="text">
+          <br>
+          <label for="apellido">Apellidos:</label>
+          <input id="apellido" type="text">
+          <br>
+          <label for="direccion">Email:</label>
+          <input id="direccion" type="text">
+          <br>
+          <label for="celular">Numero de contacto:</label>
+          <input id="celular" type="number">         
+          <br>
+
+          <label for="areatrabajo">Area de trabajo:</label>
+          <br>
+          <input id="diseño" type="radio" name="trabajo" value="Diseño" checked>Diseño
+          <br>
+          <input id="fotografia" type="radio" name="trabajo" value="Fotografía">Fotografía
+          <br>
+          <input id="video" type="radio" name="trabajo" value="Video">Video
+          <br>
+          <input id="animacion" type="radio" name="trabajo" value="Animación">Animación 
+          <br>
+          <input id="audio" type="radio" name="trabajo" value="Audio">Audio
+          <br>
+          <input id="redaccion" type="radio" name="trabajo" value="Redacción">Redacción
+          <br>
+          <input id="ilustracion" type="radio" name="trabajo" value="Ilustración">Ilustración
+          <br>
+          <input id="publicidadred" type="radio" name="trabajo" value="Publicidad en redes">Publicidad en redes
+          <br>
+          <input id="comunicacionest" type="radio" name="trabajo" value="Comunicación estrategica">Comunicación estrategica
+          <br>
+          <input id="copywriting" type="radio" name="trabajo" value="Copywriting creativo">Copywriting creativo
+          <br>
+          <input id="o" type="radio" name="trabajo" onclick="ValidarOtraArea(1)">Otro
+          <input id="otro" type="text" style="display: none;">
+          <br>
+          <label for="acepto">Acepto terminos y condiciones</label>
+          <input type="checkbox" name="acepto" id="acepto">
+          <br>
+          <br>
+          <button onclick="Registrar()">Registrar</button>
+      </section>
+      <!-- Tabla -->
+      <section id="tablaRegistros">
+          <table id="registro">
+              <tr>
+                  <th>Nombres</th>
+                  <th>Apellidos</th>
+                  <th>Email</th>
+                  <th>Contacto</th>
+                  <th>Area trabajo</th>
+                  <th>Acepta terminos y condiciones</th>
+              </tr>
+          </table>
+      </section>
+
+
+        
+    </main>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
