@@ -66,3 +66,8 @@ nav a i{
     align-items: center;
     justify-content: center;
 }
+
+#tablaRegistros{
+    height: 50vh;
+    overflow-y: scroll;
+}
