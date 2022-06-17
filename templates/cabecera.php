@@ -32,24 +32,40 @@
     <link rel="stylesheet" href="../style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
-    <link rel="icon" href="../img/LOGO-TEMPORAL-BRUJAS-BLANCO.png">
+    <link rel="icon" href="/Brujas Enlace Creativo/img/logo.png">
     <title>Brujas Enlace Creativo</title>
 
   </head>
 
  <body >
  
- <nav class="navbar">
-     <div class="nav items">
-         <a class="nav-item nav-link active" href="index.php">Brujas Enlace Creativo</a>
-         <a class="nav-item nav-link active" href="index.php">Inicio <span class="visually-hidden">(current)</span></a>
-         <a class="nav-item nav-link active" href="vista_creativos.php">Creativos</a>
-         <a class="nav-item nav-link active" href="vista_clientes.php">Clientes</a>
-         <a class="nav-item nav-link active" href="vista_clientes.php">Acerca de</a>
-     </div>
-     <div class="nav sesion">
-         <a class="nav-item nav-link active" href="index.php">Inicio Sesión</a>
-         <a class="nav-item nav-link active" href="vista_creativos.php">Cerrar Sesión</a>
-         <a class="nav-item nav-link active" href="vista_clientes.php">Registrarse</a>         
-     </div>
- </nav>
+<!-- Responsive navbar-->
+
+<nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#!">Brujas Enlace Creativo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/Brujas Enlace Creativo/secciones/index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#social">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/Brujas Enlace Creativo/secciones/login.php">Iniciar Sesion</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Registrarse</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Cerrar sesión</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header - set the background image for the header in the line below-->
+    <header class="py-5 bg-image-full">
+        <div class="text-center my-5">
+            <img class="img-fluid rounded-circle mb-4" src="/img/LOGO-TEMPORAL-BRUJAS-BLANCO.png" alt="..." />
+            <h1 class="text-white fs-3 fw-bolder"></h1>
+            <p class="text-white-50 mb-0"> </p>
+        </div>
+    </header>
+   
