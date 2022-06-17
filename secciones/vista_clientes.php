@@ -1,4 +1,5 @@
 <?php include('../templates/cabecera.php'); ?>
+
 <div class="container">
  <div class="row">
   <div class="col-12">
@@ -55,7 +56,7 @@
 
 <div class="mb-3">
   <label for="" class="form-label">Area de trabajo:</label>
-  <select name="areatrabajo_clientes" id="areatrabajo_clientes">
+  <select name="adt" id="adt">
         <option value="diseño">Diseño</option>
         <option value="fotografia">Fotografía</option>
         <option value="video">Video</option>
@@ -72,9 +73,9 @@
 
 
 <div class="btn-group" role="group" aria-label="">
-    <button type="submit" class="btn btn-success">Agregar</button>
-    <button type="submit" class="btn btn-success">Editar</button>
-    <button type="submit" class="btn btn-warning">Borrar</button>
+    <button type="submit" name="action"  class="btn btn-success">Agregar</button>
+    <button type="submit" name="action" class="btn btn-success">Editar</button>
+    <button type="submit" name="action" class="btn btn-warning">Borrar</button>
 </div>
 
 </div>  
@@ -109,4 +110,5 @@
 </div>
 </div>
 </div>
+
 <?php include('../templates/pie.php'); ?>

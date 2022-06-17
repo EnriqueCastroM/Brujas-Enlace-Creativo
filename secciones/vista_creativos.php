@@ -1,12 +1,15 @@
 <?php include('../templates/cabecera.php'); ?>
 <?php include('../secciones/creativos.php');?>
+
     <div class="container">
     <div class="row">
     <div class="col-12">
     <div class="row">
 
     <div class="col-5">
-    <form action="" method="post">
+
+<form action="" method="post">
+        
     <div class="card">
         <div class="card-header">
             Creativos
@@ -56,7 +59,7 @@
 
     <div class="mb-3">
     <label for="" class="form-label">Area de trabajo:</label>
-    <select name="areatrabajo_creativo" id="areatrabajo_creativo">
+    <select name="adt" id="adt">
             <option value="diseño">Diseño</option>
             <option value="fotografia">Fotografía</option>
             <option value="video">Video</option>
@@ -73,9 +76,9 @@
 
 
     <div class="btn-group" role="group" aria-label="">
-        <button type="submit" class="btn btn-success">Agregar</button>
-        <button type="submit" class="btn btn-success">Editar</button>
-        <button type="submit" class="btn btn-warning">Borrar</button>
+        <button type="submit" value="agregar" name="accion" class="btn btn-success">Agregar</button>
+        <button type="submit" value="editar" name="accion" class="btn btn-success">Editar</button>
+        <button type="submit" value="borrar" name="accion" class="btn btn-warning">Borrar</button>
     </div>
 
     </div>  
@@ -95,12 +98,24 @@
                     <th>Area de trabajo</th>
                 </tr>
             </thead>
+
             <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+                <?php foreach($listaCreativos as $creativos) {?>
+
+                    <tr>
+                        <td><?php echo $creativos['nombre']; ?></td>
+                        <td><?php echo $creativos['apellido']; ?></td>
+                        <td><?php echo $creativos['direccion']; ?></td>
+                        <td><?php echo $creativos['contacto']; ?></td>
+                        <td><?php echo $creativos['area de trabajo']; ?></td>
+                        <td>
+                            
+                        
+
+                        </td>
+                    </tr>
+
+                 <?php } ?>
                 
             </tbody>
         </table>
