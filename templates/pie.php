@@ -7,6 +7,7 @@ pie de la pagina (pie.php)
     <footer class="py-4 bg-light">
         <div class="container">
             <p class="m-0 text-center text-black">Copyright &copy; Brujas Enlace Creativo 2022</p>
+            <a href="http://">Instagram</a>
         </div>
     </footer>
     <!-- Bootstrap core JS-->
