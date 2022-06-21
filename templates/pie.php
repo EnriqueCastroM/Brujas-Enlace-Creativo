@@ -4,7 +4,7 @@ pie de la pagina (pie.php)
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
     <!-- Footer-->
-    <footer class="py-5 bg-light">
+    <footer class="py-4 bg-light">
         <div class="container">
             <p class="m-0 text-center text-black">Copyright &copy; Brujas Enlace Creativo 2022</p>
         </div>
@@ -17,7 +17,6 @@ pie de la pagina (pie.php)
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
         crossorigin="anonymous"></script>
-
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 

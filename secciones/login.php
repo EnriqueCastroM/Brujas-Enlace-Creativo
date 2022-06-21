@@ -6,7 +6,7 @@
 
         </div>
         <br>
-        <form action="secciones/index.php" method="post">
+        <form action="cerrar.php" method="post">
             <div class="col-md4">
                 <div class="card-header">
                     Inicio de sesión
@@ -30,4 +30,5 @@
         </form>
     </div>
 </div>
+
 <?php include('../templates/pie.php'); ?>

@@ -49,10 +49,10 @@
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/Brujas Enlace Creativo/secciones/index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#social">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/Brujas Enlace Creativo/secciones/login.php">Iniciar Sesion</a>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.php">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.php">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="login.php">Iniciar Sesion</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#!">Registrarse</a></li>
                     <li class="nav-item"><a class="nav-link" href="#!">Cerrar sesión</a></li>
@@ -63,7 +63,7 @@
     <!-- Header - set the background image for the header in the line below-->
     <header class="py-5 bg-image-full">
         <div class="text-center my-5">
-            <img class="img-fluid rounded-circle mb-4" src="/img/LOGO-TEMPORAL-BRUJAS-BLANCO.png" alt="..." />
+            <img class="img-fluid rounded-circle mb-4" src="/Brujas Enlace Creativo/img/logo.png" alt="..." />
             <h1 class="text-white fs-3 fw-bolder"></h1>
             <p class="text-white-50 mb-0"> </p>
         </div>

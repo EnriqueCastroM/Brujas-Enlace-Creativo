@@ -41,9 +41,9 @@
         </div>
     </nav>
     <!-- Header - set the background image for the header in the line below-->
-    <header class="py-5 bg-image-full">
+    <header class="py-5 bg-image-full" style="background-image: url('/img/bg.png')">
         <div class="text-center my-5">
-            <img class="img-fluid rounded-circle mb-4" src="/img/LOGO-TEMPORAL-BRUJAS-BLANCO.png" alt="..." />
+            <img class="img-fluid rounded-circle mb-4" src="/Brujas Enlace Creativo/img/logo.png" alt="..." />
             <h1 class="text-white fs-3 fw-bolder"></h1>
             <p class="text-white-50 mb-0"> </p>
         </div>
@@ -83,8 +83,8 @@
             </div>
         </div>
     </section>
-    <!--TODO:: CODE LOGIN-->
-    <!-- <div class="container">
+    
+    <div class="container">
                         <div class="row">
                             <div class="col-md4">
 
@@ -115,8 +115,7 @@
                                 </div>
                             </form>
                         </div>
-                    </div> -->
-    <!-- <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/oqStl2L5oxI/1200x500')"> -->
+                    </div>    
     <!-- Footer-->
     <footer class="py-5 bg-light">
         <div class="container">

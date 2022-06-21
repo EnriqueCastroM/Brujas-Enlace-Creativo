@@ -1,8 +1,6 @@
 <?php include('../templates/cabecera.php'); ?>
-
-
-
 inicio de la app contenido de las secciones (index.php) 
+
  <!-- Content section-->
  <section class="py-5">
         <div class="container my-5">
@@ -38,8 +36,4 @@ inicio de la app contenido de las secciones (index.php)
             </div>
         </div>
     </section>
-    <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/oqStl2L5oxI/1200x500')">
-    
-
-
-<?php include('../templates/pie.php'); ?>
+    <?php include('../templates/pie.php'); ?>
