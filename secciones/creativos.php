@@ -10,7 +10,7 @@ $contacto = isset($_POST['contacto_creativo'])? $_POST['contacto_creativo']: '';
 $adt = isset($_POST['adt'])? $_POST['adt']: '';
 $accion = isset($_POST['accion'])? $_POST['accion']: '';
 
-print_r($_POST);
+
 
 
 if($accion!=''){

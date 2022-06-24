@@ -1,71 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
-    />
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="./img/logo.png">
+  <script src="./js/app.js"></script>
+  <title>Brujas Enlace Creativo</title>
+</head>
 
-     <link rel="stylesheet" href="fonts/icomoon/style.css">
+<body>
 
-     <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="index.php" class="w3-bar-item w3-button">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>          
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+        <i class="fa fa-search"></i>
+      </a>
+    </div>
 
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+    </div>
+  </div>
 
-     <!-- Style -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/style2.css">
-    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
-    <!-- https://cdnjs.com/libraries/font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    
-    <link rel="stylesheet" href="../style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-    <link rel="icon" href="/Brujas Enlace Creativo/img/logo.png">
-    <title>Brujas Enlace Creativo</title>
+  <!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <a href="http://www.brujasenlacecreativo.com"><img class="img-fluid rounded-circle mb-4" src="./img/logo.png" alt="..." /></a>
 
-  </head>
-
- <body >
- 
-<!-- Responsive navbar-->
-
-<nav class="navbar navbar-expand navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#!">Brujas Enlace Creativo</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.php">About</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.php">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="login.php">Iniciar Sesion</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Registrarse</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Cerrar sesión</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- Header - set the background image for the header in the line below-->
-    <header class="py-5 bg-image-full">
-        <div class="text-center my-5">
-            <img class="img-fluid rounded-circle mb-4" src="/Brujas Enlace Creativo/img/logo.png" alt="..." />
-            <h1 class="text-white fs-3 fw-bolder"></h1>
-            <p class="text-white-50 mb-0"> </p>
-        </div>
-    </header>
-   
+    </div>
+  </div>
+  </div>
