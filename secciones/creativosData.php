@@ -1,4 +1,4 @@
-<?php include('../templates/cabecera.php'); ?>
+<?php include('../templates/header.php'); ?>
 <?php include('creativos.php');?>
 
     <div class="container">

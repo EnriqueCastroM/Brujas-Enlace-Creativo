@@ -1,5 +1,5 @@
 <?php include('./templates/cabecera.php'); ?>
-<?php include('./secciones/creativos.php');?>
+
 
 
 <!-- Content section-->
@@ -61,25 +61,25 @@
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
     <div class="w3-row-padding w3-center">
         <div class="w3-col m3">
-            <img src="./img/workareas/foto.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Fotografía">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Fotografía">
             Foto de <a href="https://unsplash.com/@nordwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NordWood Themes</a> en <a href="https://unsplash.com/es/s/fotos/c%C3%A1mara?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
         </div>
 
 
         <div class="w3-col m3">
-            <img src="./img/workareas/diseño.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Diseño">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Diseño">
             Foto de <a href="https://unsplash.com/@themephotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Theme Photos</a> en <a href="https://unsplash.com/es/s/fotos/dise%C3%B1o-grafico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         </div>
 
         <div class="w3-col m3">
-            <img src="./img/workareas/video.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Video">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Video">
             Foto de <a href="https://unsplash.com/@jakobowens1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jakob Owens</a> en <a href="https://unsplash.com/es/s/fotos/video?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
         </div>
 
         <div class="w3-col m3">
-            <img src="./img/workareas/ilustracion.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ilustración">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ilustración">
             Foto de <a href="https://unsplash.com/@emilybernal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emily Bernal</a> en <a href="https://unsplash.com/es/s/fotos/adobe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
         </div>
@@ -87,32 +87,32 @@
 
     <div class="w3-row-padding w3-center w3-section">
         <div class="w3-col m3">
-            <img src="./img/workareas/redes.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Redes">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Redes">
             Foto de <a href="https://unsplash.com/@firmbee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Firmbee.com</a> en <a href="https://unsplash.com/es/s/fotos/publicidad-en-redes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
         </div>
 
         <div class="w3-col m3">
-            <img src="./img/workareas/estrategia.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Comunicacion estretegica">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Comunicacion estretegica">
             Foto de <a href="https://unsplash.com/@johnschno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">John Schnobrich</a> en <a href="https://unsplash.com/es/s/fotos/comunicaci%C3%B3n-estrat%C3%A9gica?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
         </div>
 
         <div class="w3-col m3">
-            <img src="./img/workareas/copywriting.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Copywriting creativo">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Copywriting creativo">
             Foto de <a href="https://unsplash.com/@lucaonniboni?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luca Onniboni</a> en <a href="https://unsplash.com/es/s/fotos/copywriting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
         </div>
 
         <div class="w3-col m3">
-            <img src="./img/workareas/audio.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Audio">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Audio">
             Foto de <a href="https://unsplash.com/@hamza01nsr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hamza NOUASRIA</a> en <a href="https://unsplash.com/es/s/fotos/audio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 
         </div>
 
         <div class="w3-col m3">
-            <img src="./img/workareas/redaccion.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Redacción">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Redacción">
             Foto de <a href="https://unsplash.com/es/@laurensauderstudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lauren Sauder</a> en <a href="https://unsplash.com/es/s/fotos/redacci%C3%B3n?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
         </div>
